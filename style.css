@@ -1,0 +1,62 @@
+.header-main {
+  height: 40px;
+  width: 100%;
+  background-color: #20B2AA;
+}
+ul {
+  float: right;
+  list-style: none;
+  padding: 0 0 0 0;
+  margin: 0 100px 0 0;
+}
+li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+li a {
+  color: white;
+  margin: 0 0 0 15px;
+}
+.title {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 10px 10px 10px;
+  margin: 0 0 0 80px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 50%;
+  padding: 30px 70px 20px 70px;
+  list-style-type: circle;
+}
+p {
+  color: lightslategrey;
+}
+.fa {
+font-size: 50px;
+margin: 0 20px;
+padding: 0 0 20px 0;
+text-align: center;
+display: flex;
+justify-content: center;
+}
+section {
+  padding: 0 0 60px 0;
+}
+.row {
+  margin: 0 55px;
+}
+.text-align {
+  margin: 0 0 0 105px;
+}
+.text-align1 {
+  margin: 0 0 0 60px;
+}
+.text-align2 {
+  margin: 0 0 0 110px;
+}
+.container {
+  padding: 20px 0;
+}
+

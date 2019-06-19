@@ -1,0 +1,106 @@
+<html>
+<head>
+  <title>welcome</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-main">
+      <p class="title" >eNno</p>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="container-fluid " >
+      <div class="row">
+        <div class="col-md-12">
+            <div id="demo" class="carousel slide" data-ride="carousel" >
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-interval="1000">
+                    <img src="b.png" alt="Los Angeles">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="3.png" alt="Chicago">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="2.png" alt="New York">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+        </div>
+
+      </div>
+
+      </div>
+      <section class="text-center">
+        <div class="container">
+
+
+          <h3>Multi Purpose Theme</h3>
+          <p>Learn ipsum dolor sit amet consectetur adipiscing Cras suscipit arcu<br>
+             vestibulum volutpat libero sollicibin vitae Curabitur ac<br>
+            aliquan lorem sit amet ascelerrisque justo</p>
+          <br>
+        </div>
+      </section>
+      <div class="container">
+       <div class="row">
+          <div class="col-lg">
+            <h4 class="text-align">Responsive</h4><br>
+            <i class="fa fa-heart-o" aria-hidden="true" style="color:darkturquoise"></i><br>
+            <p class="text-align1">Learn ipsum dolor sit amet consectetur<br>
+              adipiscing Cras suscipit </p><br>
+            <button type="button" class="btn btn-light text-align2">Read More</button></div>
+          <div class="col-lg"><h4 class="text-align">Multi Purpose</h4><br>
+            <i class="fa fa-desktop" aria-hidden="true" style="color: darkturquoise"></i><br>
+            <p class="text-align1">Learn ipsum dolor sit amet consectetur<br>
+              adipiscing Cras suscipit</p><br>
+            <button type="button" class="btn btn-light text-align2">Read More</button></div>
+          <div class="col-lg"><h4 class="text-align">Easy Customize</h4><br>
+              <i class="fa fa-paper-plane" aria-hidden="true" style="color: darkturquoise"></i><br>
+              <p class="text-align1">Learn ipsum dolor sit amet consectetur<br>
+                adipiscing Cras suscipit</p><br>
+              <button type="button" class="btn btn-light text-align2" >Read More</button></div>
+          </div>
+      </div>
+    </div>
+    <section class="text-center">
+    <div class="container">
+      <h2>Galleries</h2>
+      <p>Learn ipsum dolor sit amet consectetur adipiscing Cras suscipit arcu<br>
+        vestibulum volutpat libero sollicibin vitae Curabitur ac</p>
+
+    </div>
+  </section>
+</body>
+</html>
